@@ -8,7 +8,7 @@ pub struct TestApp {
     pub address: String,
     pub db_pool: PgPool,
 }
-
+//spawn app returns testapp struct
 async fn spawn_app() -> TestApp {
     let listener = TcpListener::bind("127.0.0.1:0").expect("Failed to bind random port");
     let port = listener.local_addr().unwrap().port();

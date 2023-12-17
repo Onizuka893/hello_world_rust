@@ -19,7 +19,7 @@ serde = { version = "1", features = ["derive"] }
 uuid = { version = "0.8.1", features = ["v4"] }
 chrono = "0.4.15"
 tracing-subscriber = { version = "0.3", features = ["registry", "env-filter"] }
-tracing-bunyan-formatter = "0.3"
+tracing-bunyan-formatter = "0.3.6"
 tracing-log = "0.1"
 
 [dependencies.sqlx]
